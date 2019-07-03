@@ -29,6 +29,24 @@
     }
   }
 
+  .header {
+    background: #333;
+    background-color: #333;
+  }
+
+  .address, .copyright, .footer, .footer-link {
+    background: #d14 !important;
+    background-color: #d14 !important;
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a, p {
+      color: #fff;
+    }
+  }
+
   .rounded {
     border-radius: 10%;
   }
